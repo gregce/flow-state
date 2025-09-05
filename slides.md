@@ -83,6 +83,25 @@ themeConfig:
 </div>
 
 ---
+layout: center
+---
+
+# Get These Slides
+
+<div class="flex flex-col items-center gap-8 mt-8">
+  <img src="/qr-code.png" class="w-48 h-48" alt="QR Code for slides" />
+  
+  <div class="text-center">
+    <p class="text-2xl text-accent-teal mb-4">Scan to access slides</p>
+    <a href="https://github.com/gregce/flow-state" 
+       target="_blank"
+       class="text-xl text-accent-yellow hover:text-accent-blue transition-colors">
+      github.com/gregce/flow-state
+    </a>
+  </div>
+</div>
+
+---
 layout: about-me
 helloMsg: Hello!
 name: I'm Greg
@@ -364,10 +383,8 @@ layout: center
 # Go deeper
 
 <div class="flex flex-col items-center justify-center h-full">
-  <div v-click class="grid grid-cols-3 gap-6 max-w-6xl w-full">
-    <a href="https://www.gregceccarelli.com/writing/creating-film-with-ai" 
-       target="_blank"
-       class="bg-code-background p-8 rounded-lg border border-code-border hover:border-accent-blue transition-all group flex flex-col items-center justify-between text-center h-64">
+  <div v-click class="grid grid-cols-3 gap-6 max-w-6xl w-full mt-8">
+    <a href="https://www.gregceccarelli.com/writing/creating-film-with-ai" target="_blank" class="bg-code-background p-8 rounded-lg border border-code-border hover:border-accent-blue transition-all group flex flex-col items-center justify-between text-center h-64">
       <div class="text-5xl mb-4 group-hover:scale-110 transition-transform">🎬</div>
       <div class="flex-grow flex flex-col justify-center">
         <h3 class="text-lg font-bold text-accent-blue mb-2">Creating Film with AI</h3>
@@ -375,10 +392,7 @@ layout: center
       </div>
       <div class="h-4"></div>
     </a>
-    
-  <a href="https://www.gregceccarelli.com/writing/build-product-video-with-ai" 
-       target="_blank"
-       class="bg-code-background p-8 rounded-lg border border-code-border hover:border-accent-yellow transition-all group flex flex-col items-center justify-between text-center h-64">
+    <a href="https://www.gregceccarelli.com/writing/build-product-video-with-ai" target="_blank" class="bg-code-background p-8 rounded-lg border border-code-border hover:border-accent-yellow transition-all group flex flex-col items-center justify-between text-center h-64">
       <div class="text-5xl mb-4 group-hover:scale-110 transition-transform">🚀</div>
       <div class="flex-grow flex flex-col justify-center">
         <h3 class="text-lg font-bold text-accent-yellow mb-2">Build Product Videos</h3>
@@ -386,10 +400,7 @@ layout: center
       </div>
       <div class="h-4"></div>
     </a>
-    
-  <a href="https://www.meditationsontech.com/p/claude-and-i" 
-       target="_blank"
-       class="bg-code-background p-8 rounded-lg border border-code-border hover:border-accent-red transition-all group flex flex-col items-center justify-between text-center h-64">
+    <a href="https://www.meditationsontech.com/p/claude-and-i" target="_blank" class="bg-code-background p-8 rounded-lg border border-code-border hover:border-accent-red transition-all group flex flex-col items-center justify-between text-center h-64">
       <div class="text-5xl mb-4 group-hover:scale-110 transition-transform">🤖</div>
       <div class="flex-grow flex flex-col justify-center">
         <h3 class="text-lg font-bold text-accent-red mb-2">Claude and I</h3>
